@@ -1,0 +1,6 @@
+sudo docker build -t IMAGE_NAME -f Dockerfile .
+sudo docker images
+sudo docker create IMAGE_NAME .
+sudo docker ps -a
+sudo docker start -i NICK_NAME
+sudo docker run -p 8080:80 -d IMAGE_NAME
